@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  * Plugin Name:       Gravity Forms Partita Iva e Codice Fiscale
@@ -12,3 +13,5 @@
  * Text Domain:       gravityforms-pivacf-fields
  * Domain Path:       /languages
  */
+include_once('fields/codicefiscale.php');
+include_once('fields/partitaiva.php');
